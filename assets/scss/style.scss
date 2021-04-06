@@ -1,0 +1,21 @@
+@import 'colors';
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.border-black {
+  border: 2px solid $third-color !important;
+}
+
+
+// nav bar
+
+.bg-main {
+  background-image: linear-gradient(120deg,
+    RGB(176, 139, 84),
+    RGB(25, 13, 13));
+}
+
