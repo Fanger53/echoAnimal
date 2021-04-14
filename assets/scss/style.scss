@@ -10,7 +10,23 @@
   border: 2px solid $third-color !important;
 }
 
+.bg-img {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
+.text-second {
+  color: $second-color;
+}
+
+.text-third {
+  color: $main-color;
+}
+
+.box-shadow {
+  box-shadow: 5px -5px 5px -3px rgb(63, 60, 57);
+}
 // nav bar
 
 .bg-main {
@@ -19,3 +35,17 @@
     RGB(25, 13, 13));
 }
 
+// Header
+
+.header-img-bg {
+  background-image: url(../img/logo.jpg);
+  height: 31rem;
+}
+
+.third-bg {
+  background-color: $third-color;
+}
+
+.border-main {
+  border: 2px solid $main-color;
+}
